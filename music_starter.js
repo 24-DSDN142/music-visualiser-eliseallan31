@@ -55,7 +55,7 @@ function draw_one_frame(words, vocal, drum, bass, other, counter) {
   //background waves 
   for (let i = 0; i < 1000; i++) {
     fill(163, 237, 107) //green
-    ellipse(i * 10, bass * sin(i * 10) + 170, 5, 5)
+    ellipse(i * 10, other * sin(i * 10) + 170, 5, 5)
   }
   for (let i = 0; i < 1000; i++) {
     fill(245, 212, 66) //yellow
